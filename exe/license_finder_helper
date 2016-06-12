@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "license_finder_helper"
+require "license_finder_helper/cli"
+
+LicenseFinderHelper::Cli.new.run
